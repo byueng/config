@@ -25,7 +25,7 @@ require("lazy").setup({
     { import = "plugins.lang.rust" },
     { import = "plugins.lang.yml" },
     { import = "plugins.lang.json" },
-    { import = "plugins.ui.dashboard" },
+    -- { import = "plugins.ui.dashboard" },
     { import = "plugins.ui.devicons" },
   },
   defaults = {

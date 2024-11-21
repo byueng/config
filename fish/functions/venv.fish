@@ -23,7 +23,7 @@ function create_venv
             source $config_file
             $ALIAS_NAME
             echo "enter $ALIAS_NAME and set pip config..."
-            pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+            pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
             python -m pip install --upgrade pip
             echo "config completed"
         else
